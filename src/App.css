@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.music-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.name {
+  font-size: 30px;
+  font-family: roboto;
+  font-weight: bold;
+  color: #ffffff;
+}
+.profession {
+  font-size: 25px;
+  font-family: roboto;
+  color: #ffffff;
+}
+.play-list-container {
+  background-color: #152850;
+  min-height: 40vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.title {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.search-container {
+  display: flex;
+  justify-content: space-between;
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: transparent;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 4px;
+  border: 1px solid #cbd5e1;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+.search-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+.song-list-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.song-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.2, 0.2);
+}
+
+.Empty-song-message {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+  width: 100%;
+  min-height: 400px;
+  color: #ffffff;
+  font-size: 22px;
+}
